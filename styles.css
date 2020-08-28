@@ -2,8 +2,13 @@ body{
     text-align: center;
 }
 
+
+label {
+    display: flex;
+    justify-content: center;
+  }
+
 input,
-button,
 select,
 textarea{
     width: 50%;
@@ -12,9 +17,31 @@ textarea{
   box-sizing: border-box;
   border: 2px solid red;
   border-radius: 4px;
+  
 }
 
 input[type=submit]{
     background-color: #3CBC8D;
   color: white;
 }
+
+
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+  select {
+    width: 50%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
